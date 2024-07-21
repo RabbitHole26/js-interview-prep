@@ -1,16 +1,24 @@
-// method is another way to call a function !
+// method is a name of a function inside an object
+
+// * example of function which is not a method
 
 function sayHello(name) {
   console.log(`Hello ${name}`)
 }
 
-// sayHello('Nacho')
+// call the function to execute the code inside it
+sayHello('Nacho')
 
-function greeting() {
-  // sayHello is a function nested inside greeting function
-  // ! sayHello is a method of greeting function
-  sayHello('Nacho')
-  // sayGoodbye('Nacho')
+// * example of a method which is a function nested in an object
+
+const myFunctions = {
+  greet: function() {
+    console.log(`Hello there`)
+  },
+  farewell: function() {
+    console.log(`Goodbye!`)
+  }
 }
 
-greeting()
+// call the function greet which is a method of myFunctions object
+myFunctions.greet() // return a string 'Hello there'
