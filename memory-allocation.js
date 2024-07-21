@@ -1,3 +1,5 @@
+// THIS IS THE LINK TO FIGMA BOARD WHERE WE DISCUSS THIS TOPIC: https://www.figma.com/board/0hrl4bJ748oNGHHKPJqB6R/JS-interview-questions?node-id=0-1&t=zCYcOENIY1Gdt7G0-1
+
 // primitive data types are always immutable (assigned to unique place in memory)
 // when we run the code with node, the variable age is allocated to computer memory
 // this means that it has its own unique place in memory
